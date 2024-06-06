@@ -1,0 +1,49 @@
+.binhluan {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.titlebl {
+    background-color:#3ac4fa;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.bl table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bl td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.boxbl {
+    margin-top: 10px;
+}
+
+.boxbl form {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxbl input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.boxbl input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.boxbl input[type="submit"]:hover {
+    background-color: #45a049;
+}

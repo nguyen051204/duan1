@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+.boxcenter{
+    width: 70%;
+    margin:  0 auto;
+}
+.row{
+    float:  left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 30px;
+}
+.mr{
+    margin-right: 2%
+}
+.demo{
+    background-color:  black;
+    min-height: 100px;
+}
+.header{
+    background-color: aqua;
+    border: 1px #090 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 10px; 
+}
+.header h1{
+  margin: 10px 20px;  
+  font-size: 1.5vw;
+}
+.menu{
+    background-color: black;
+    color: #ccc;
+    border-radius: 10px;
+}
+.boxphai{
+    float: right;
+    width: 24%;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.footer{
+    background-color: aqua;
+    border: 1px #090 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 10px; 
+    padding: 0 20px;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px ;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+.boxcontent{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.content2{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    min-height: 100px;
+}
+.boxfooter{
+    padding: 10px ;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+.banner{
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
+
+}
+.banner img{
+    height: 300px;
+    width: 100%;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 270px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin: 4px;
+}
+.boxsp .img{
+   min-height: 200px;
+    text-align: center;
+}
+.boxsp p{
+    color: red;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.boxsp a{
+    padding-left: 20px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.boxsp a:hover{
+    color: red;
+}
+.img img{
+    height: 180px;
+    width: 80%;
+    padding-top: 10px;
+}
+.menu ul{
+    padding: 0 15px;
+}
+.menu ul li{
+    display: inline; 
+    list-style-type: none;
+    padding: 0 15px;
+
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.menu ul li a:hover{
+ color: red;
+ font-size: 1.2vw;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type= "text"],
+.formtaikhoan input[type= "password"],
+.formcontent input[type = "text"]
+{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 6px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type= "checkbox"]
+{
+    border-radius: 5px;
+}
+.formtaikhoan input[type= "submit"],
+.formcontent input[type= "submit"],
+.formcontent input[type= "reset"],
+.formcontent input[type= "button"]
+{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.formtaikhoan input[type= "submit"]:hover,
+.formcontent input[type= "submit"]:hover,
+.formcontent input[type= "reset"]:hover,
+.formcontent input[type= "button"]:hover
+{
+    background-color: #ccc;
+}
+.formtaikhoan li a{
+    color: black;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: green;
+    text-decoration:underline;
+}
+.menudoc ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.menudoc ul li {
+    padding: 7px 20px;
+    background-color: #fff;
+   border-bottom: 1px #ccc solid; 
+}
+.menudoc ul li a {
+   text-decoration: none;
+   color: #666;
+}
+.menudoc ul li:hover {
+   background-color: #ccc;
+}
+.searchbox form{
+  display: flex;
+  justify-content: space-between;
+}
+.searchbox form input[type = "submit"]{
+  background-color: #fff;
+  border: 1px #ccc solid;
+  border-radius:5px;
+}
+.searchbox form input[type = "submit"]:hover{
+  background-color: #ccc;
+}
+.searchbox input[type= "text"]{
+    width: 80%;
+    padding: 5px 5px ;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius:5px;
+}
+.top10{
+    display: flex;
+    align-items: center;
+}
+.top10 img{
+    width: 15%;
+    height: 30px;
+    float: left;
+    margin-right:10px ;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    padding: 1px;
+}
+.top10 a{
+  text-decoration: none;
+  color: #666; 
+}
+.top10 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* ADMIN */
+.header_admin{
+    background-color: #eee;
+    border: 1px #ccc solid;
+    font-size: 1vw;
+    color: #666;
+    border-radius: 10px; 
+    padding: 5px 20px;
+}
+.header_admin h1{
+    font-size: 1.5vw;
+}
+.formtitle{
+    background-color: #eee;
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.formcontent{
+    padding: 20px 0;
+}
+.formdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+ 
+}
+.formdsloai table td{
+    padding: 10px 20px;    
+    /* background-color: ; */
+    border: 1px #ccc solid;
+}
+.formdsloai table th{
+    
+    padding: 20px; 
+    background-color: #ccc;
+}
+/* .formdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+.formdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+} */
+
+#footer {
+    font-family: BalloExtra;
+    height: auto;
+    padding-bottom: 40px;
+    background-image: linear-gradient(
+        rgba(51, 51, 51, 0.86),
+        rgba(51, 51, 51, 0.86)
+      ),
+      url("./img/anh2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
+  }
+  #footer,
+  .footer-left,
+  .footer-right {
+    display: flex;
+  }
+  
+  .footer-left,
+  .footer-right {
+    margin-top: 3rem;
+  }
+  
+  .footer-left {
+    padding-left: 12%;
+    align-items: center;
+    width: 65%;
+  }
+  .footer-right {
+    margin-top: 3.5rem;
+    gap: 3rem;
+    padding-right: 12%;
+    width: 35%;
+  }
+  
+  #footer h3 {
+    font-family: BalooExtra;
+    text-align: start;
+    color: var(--yellow-color);
+  }
+  
+  #footer p,
+  #footer a {
+    font-family: Barlow;
+    color: #ffff;
+    text-align: start;
+  }
+  #footer a {
+    text-decoration: none;
+    display: block;
+    line-height: 1.8rem;
+  }
+  .footer-left .footer-logo {
+    width: 45%;
+    margin-right: 2.3rem;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+    object-fit: cover;
+  }
+  #footer i {
+    color: var(--yellow-color);
+  }
+  
+  #footer .card_1 {
+    width: 70%;
+  }
+  
+  .card_1 {
+    width: 70%;
+    margin: 0;
+  }
+  
+  .card_1 div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card_1 div p,
+  .card_1 p {
+    font-size: 0.9rem;
+    margin-left: 0.3rem;
+    line-height: 2rem;
+    display: block;
+    text-align: start;
+  }
+  
+  .icons i {
+    font-size: 1.5rem;
+    margin-left: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.4rem;
+    cursor: pointer;
+  }
+  
+  #footer .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  #footer .image {
+    width: 8rem;
+    height: 2.5rem;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.2rem;
+  }
+  .image_3 {
+    height: 3rem !important;
+    width: 10rem;
+    margin-top: 0.5rem;
+  }
+  /* footer section ends */
+  .spct{
+    text-align: center;
+  }
+  
+
+  /*slide showw*/
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .spct img{
+    width: 280px;
+    height: 280px;
+  }
+
+/* form đk thành viên */
+.formdktv input[type = "submit"],
+.formdktv input[type = "reset"]
+{
+  border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.formdktv input[type = "submit"]:hover,
+.formdktv input[type = "reset"]:hover
+{
+  background-color: #ccc;
+}
+.formdktv input[type = "email"],
+.formdktv input[type = "text"],
+.formdktv input[type = "password"]
+{
+  width: 70%;
+  padding-top: 10px;
+  border-radius: 4px;
+}
+
+.thongbao{
+  color: red;
+}
+
+.bladmin td{
+  font-size: 16px;
+}

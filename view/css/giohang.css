@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://scr.vn/wp-content/uploads/2020/07/C%E1%BA%A3nh-bi%E1%BB%83n-c%E1%BA%A3-trong-xanh-c%E1%BB%B1c-m%C3%A1t-m%E1%BA%AFt.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+span {
+    font-size: 1.2em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.dh{
+    background: #ad6f69;
+    transition: 0.2 ease-in-out;
+}
+
+.dh:hover{
+    background-color: red;
+    transform: scaleX(1.1);
+    
+}
+
